@@ -1,0 +1,23 @@
+{
+  "name": "deepmatter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "e2e-headless": "cypress run --browser chrome --config integrationFolder=cypress/tests",
+      "cy-open": "cypress open --config integrationFolder=cypress/tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonmaungthein/Deepmatter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonmaungthein/Deepmatter/issues"
+  },
+  "homepage": "https://github.com/wonmaungthein/Deepmatter#readme",
+  "devDependencies": {
+    "cypress": "^6.0.0"
+  }
+}
