@@ -1,4 +1,4 @@
-describe('Deepmatter test', function () {
+describe('Deepmatter test', () => {
   beforeEach(() => {
     cy.visit('/');
     cy.get('#cookieNotice')
@@ -48,4 +48,5 @@ describe('Deepmatter test', function () {
   });
 });
 
-// Are there any changes to the site which could be made to make automation easier?
+// "Are there any changes to the site which could be made to make automation easier?"
+// "I tried to get the cookies banner to set and quickly do automation but I could not manage to get the right one. I think if we have cookie name and value like google have, it would be eaiser to write automation test"
