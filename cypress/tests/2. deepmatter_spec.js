@@ -1,6 +1,6 @@
 describe('Deepmatter test', function () {
   beforeEach(() => {
-    cy.visit('https://www.deepmatter.io/');
+    cy.visit('/');
     cy.get('#cookieNotice')
       .find('[type="button"]')
       .eq(0)
